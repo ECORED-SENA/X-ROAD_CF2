@@ -90,7 +90,7 @@
     .titulo-segundo.mb-3
       #t_1_2.h4 1.2 Colaboración entre Entidades para el Intercambio de la Información en la Administración Pública
 
-    .card_colo1.mb-5.p-2
+    .card_colo1.mb-5.p-4
       .row.justify-content-center.align-items-center
         .col-lg-5
           p.mb-3 El uso del marco de interoperabilidad dirige las iniciativas de intercambio de información hacia interacciones entre las entidades públicas más eficientes, efectivas, oportunas y de alta calidad, que ayuda a reducir el costo y esfuerzo necesario al construir un entorno interoperable coherente, facilitando la prestación de trámites y servicios en línea que funcionan en conjunto tanto dentro como fuera de las entidades públicas.
