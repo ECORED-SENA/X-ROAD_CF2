@@ -1,1 +1,1 @@
-module.exports = 'Introducción a X-Road'
+module.exports = 'Marco de Interoperabilidad para el Estado Colombiano'
