@@ -9,7 +9,7 @@
       .h3 Dominios - Direccionamiento del proceso de intercambio de información
     
     .titulo-segundo.mb-5
-      #t_4_1.h4 4.1 Dominio 1: Político-Legal
+      #t_4_1.h4 4.1 Dominio 1: político-legal
 
     .row.mb-5
       .col-lg-6
@@ -100,7 +100,7 @@
           strong Descripción
         p.mb-3 Identifica la forma en que la información de carácter confidencial y personal, asociada a los servicios de intercambio de información que se consumirán o prestarán, será protegida.
 
-        p De tal modo, se evita la pérdida de su confidencialidad e integridad, así como su uso no autorizado.
+        p.mb-3 De tal modo, se evita la pérdida de su confidencialidad e integridad, así como su uso no autorizado.
         p 
           strong Rol
         p.mb-3 Jurídico
@@ -174,11 +174,12 @@
           strong Rol
         p.mb-3 Jurídico
         
-        p Artefactos generados
+        p 
+          strong Artefactos generados
         p Acto Administrativo. Acuerdo para el intercambio de información, cronograma de entrega, plan de trabajo, protocolo, entre otros, de acuerdo con lo definido en el Decreto 2280 de 2010. Modelo de Seguridad y Privacidad de la Información.
 
     .titulo-segundo.mb-5
-      #t_4_2.h4 4.2 Domino 2:  Organizacional
+      #t_4_2.h4 4.2 Domino 2: organizacional
 
     .row.mb-5
       .col-lg-6
@@ -194,21 +195,21 @@
     .row
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img(src='@/assets/curso/tema_4/img_7.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_7.svg' alt='AvatarTop')
           .tarjeta.color-secundario.p-4.card-tamano1
             .h4.text-center.txt_color_5 Lineamiento 1
             p.text-center Documentar los procesos, trámites, servicios y otros procedimientos administrativos y concertar la manera de alinearlos para mejorarlos mediante el intercambio de información.
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img(src='@/assets/curso/tema_4/img_8.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_8.svg' alt='AvatarTop')
           .tarjeta.color-secundario.p-4.card-tamano1
             .h4.text-center.txt_color_5 Lineamiento 2
             p.text-center Adecuar los procesos, trámites, servicios y otros procedimientos administrativos para la incorporación de los servicios de intercambio de información.
 
       .col-md-6.col-lg.mb-5
         .tarjeta-Avatar
-          img(src='@/assets/curso/tema_4/img_9.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_9.svg' alt='AvatarTop')
           .tarjeta.color-secundario.p-4.card-tamano1
             .h4.text-center.txt_color_5 Lineamiento 3
             p.text-center Establecer las relaciones organizacionales que se requieren entre las entidades cuando se provee o consume información para un trámite o servicio.
@@ -216,14 +217,14 @@
     .row.justify-content-center
       .col-md-6.col-lg-4.mb-5
         .tarjeta-Avatar
-          img(src='@/assets/curso/tema_4/img_10.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_10.svg' alt='AvatarTop')
           .tarjeta.color-secundario.p-4.card-tamano
             .h4.text-center.txt_color_5 Lineamiento 4
             p.text-center Divulgar las necesidades, el alcance y los compromisos de los servicios de intercambio de información entre los actores involucrados.
 
       .col-md-6.col-lg-4.mb-5
         .tarjeta-Avatar
-          img(src='@/assets/curso/tema_4/img_11.svg' alt='AvatarTop')
+          img.im_ava(src='@/assets/curso/tema_4/img_11.svg' alt='AvatarTop')
           .tarjeta.color-secundario.p-4.card-tamano
             .h4.text-center.txt_color_5 Lineamiento 5
             p.text-center Desarrollar las competencias y habilidades necesarias para el consumo, implementación y prestación de servicios de intercambio de información.
@@ -424,7 +425,7 @@
         p Documento soporte de versionamiento que contenga las modificaciones relacionadas con las actualizaciones de los servicios de intercambio.
 
     .titulo-segundo.mb-5
-      #t_4_3.h4 4.3 Domino 3: Semántico
+      #t_4_3.h4 4.3 Domino 3: semántico
 
     .row.mb-5
       .col-lg-6
@@ -471,8 +472,7 @@
         p
           strong Descripción
         p Una vez la entidad identifica el conjunto de elementos de datos particulares a los procesos de negocio que hacen parte de los servicios de intercambio de información, la entidad revisa la existencia de dichos elementos de dato dentro del leguaje comun 
-        a(:href="('http://lenguaje.mintic.gov.co/diccionario-de-elementos-de-datos')" target="_blank")
-          p.url http://lenguaje.mintic.gov.co/diccionario-de-elementos-de-datos.
+          a(href="http://lenguaje.mintic.gov.co/diccionario-de-elementos-de-datos" target="_blank").link-color http://lenguaje.mintic.gov.co/diccionario-de-elementos-de-datos
 
         p.mt-3.mb-3 La conceptualización de los elementos de dato debe estar dada acorde al Estándar de Lenguaje Común de Intercambio de Información.
 
@@ -486,8 +486,7 @@
           strong Entregables o artefacto
         p Formulario de la solicitud de servicio diligenciado.  Notificación de nivel 1.
         p Para más información consultar la Guía de Uso y Conceptos Generales de Lenguaje Común en el portal:  
-        a.mb-3(:href="('http://lenguaje.mintic.gov.co/solicitud-servicio')" target="_blank")
-          p.url http://lenguaje.mintic.gov.co/solicitud-servicio
+          a(href="http://lenguaje.mintic.gov.co/solicitud-servicio" target="_blank").link-color http://lenguaje.mintic.gov.co/solicitud-servicio
 
       div(titulo="Actividad 3")
         p
@@ -497,12 +496,12 @@
         p
           strong Descripción
         p La entidad puede consultar y verificar la información estandarizada en el diccionario de datos del estándar en: 
-        a.mb-3(:href="('http://lenguaje.mintic.gov.co/diccionario-de-elementos-de-datos')" target="_blank")
-          p.url http://lenguaje.mintic.gov.co/diccionario-de-elementos-de-datos
+          a(href="http://lenguaje.mintic.gov.co/diccionario-de-elementos-de-datos" target="_blank").link-color http://lenguaje.mintic.gov.co/diccionario-de-elementos-de-datos
+        
 
         p.mt-3
           strong Responsable de la actividad
-        p.mt-3 Responsable de Interoperabilidad en la entidad.
+        p.mb-3 Responsable de Interoperabilidad en la entidad.
 
         p
           strong Entregables o artefacto
@@ -525,8 +524,7 @@
           strong Entregables o artefacto
         p Formulario de la solicitud de servicio diligenciado. Notificación de nivel 2.
         p Para más información ver el anexo Guía de Usos y Conceptos Generales de Lenguaje Común en el portal: 
-        a.mb-3(:href="('http://lenguaje.mintic.gov.co')" target="_blank")
-          p.url http://lenguaje.mintic.gov.co
+          a(href="http://lenguaje.mintic.gov.co" target="_blank").link-color http://lenguaje.mintic.gov.co
 
       div(titulo="Actividad 5")
         p
@@ -537,8 +535,7 @@
           strong Descripción
         p Finalizada la evaluación del servicio desarrollada por la entidad, esta debe solicitar la publicación en el Directorio de Servicios de Intercambio de Información a través del diligenciamiento de una solicitud de servicio la cual debe ser enviada a:
         p Centro de Contacto al Ciudadano de MinTIC 
-        a.mb-3(:href="('https://mintic.gov.co/portal/604/w3-propertyvalue-640.html')" target="_blank")
-          p.url soportecc@mintic.gov.co.
+          a(href="https://mintic.gov.co/portal/604/w3-propertyvalue-640.html" target="_blank").link-color soportecc@mintic.gov.co.
 
         p.mt-3
           strong Responsable de la actividad
@@ -546,14 +543,13 @@
 
         p
           strong Entregables o artefacto
-        p Contrato de inscripción del servicio de intercambio diligenciada,
+        p Contrato de inscripción del servicio de intercambio diligenciada.
         p Notificación de nivel 3.
         p Para más información ver el anexo guía de uso y conceptos generales del lenguaje común en el portal: 
-        a.mb-3(:href="('http://lenguaje.mintic.gov.co')" target="_blank")
-          p.url http://lenguaje.mintic.gov.co
+          a(href="http://lenguaje.mintic.gov.co" target="_blank").link-color http://lenguaje.mintic.gov.co
 
     .titulo-segundo.mb-5
-      #t_4_4.h4 4.4 Domino 4: Técnico
+      #t_4_4.h4 4.4 Domino 4: técnico
 
     .row.mb-5
       .col-lg-6

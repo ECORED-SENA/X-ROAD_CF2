@@ -12,7 +12,7 @@
     .titulo-segundo
       #t_1_1.h4 1.1 Antecedentes y Marco Legal
 
-    p.mb-5 El Marco de Interoperabilidad de Gobierno Digital es la herramienta que acompaña a las entidades en el desarrollo de sus capacidades de intercambio de información, sin importar sus restricciones o su tamaño.
+    p.mb-5 El Marco de Interoperabilidad de Gobierno Digital es la herramienta que acompaña a las entidades en el desarrollo de sus capacidades de intercambio de información, sin importar sus restricciones o su tamaño
 
     TabsA.color-acento-contenido.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
@@ -155,7 +155,7 @@
           .tarjeta-Avatar.mb-3
             img(src='@/assets/curso/tema_1/img_4.svg' alt='AvatarTop')
           .h4.text-center Organizaciones privadas
-          p Involucradas en la ejecución y/o evolución de la estrategia de Gobierno Digita
+          p Involucradas en la ejecución y/o evolución de la estrategia de Gobierno Digital.
     .row.justify-content-center.mb-3
       .col-md-6.col-lg-5.mb-5
         .tarjeta.color-tab.p-4.tamano-tarjeta_2
@@ -167,7 +167,7 @@
         .tarjeta.color-tab.p-4.tamano-tarjeta_2
           .tarjeta-Avatar.mb-3
             img(src='@/assets/curso/tema_1/img_6.svg' alt='AvatarTop')
-          .h4.text-center Miembros de la comunidad acdémica
+          .h4.text-center Miembros de la comunidad académica
           p Interesados en la interoperabilidad del Gobierno Digital.
 
     .titulo-segundo.mb-5

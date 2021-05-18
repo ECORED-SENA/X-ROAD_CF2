@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Marco de Interoperabilidad para el Estado Colombiano',
     descripcionCurso:
-      'La interoperabilidad ha funcionado como una herramienta de gran alcance en los procesos de intercambio de información rápida, segura y eficiente; La importancia de su aplicación debe tener un alcance tanto a nivel local, interinstitucional, sectorial, nacional o internacional y orientado a todos los involucrados en gestionar las necesidades estratégicas de las Entidades favoreciendo así la transformación del Estado Colombiano para que funcione como una sola institución que le brinde a los ciudadanos información oportuna, trámites ágiles y mejores servicios.',
+      'La interoperabilidad ha funcionado como una herramienta de gran alcance en los procesos de intercambio de información rápida, segura y eficiente; la importancia de su aplicación debe tener un alcance tanto a nivel local, interinstitucional, sectorial, nacional o internacional y orientado a todos los involucrados en gestionar las necesidades estratégicas de las Entidades favoreciendo así la transformación del Estado Colombiano para que funcione como una sola institución que le brinde a los ciudadanos información oportuna, trámites ágiles y mejores servicios.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -88,7 +88,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.1',
-            titulo: 'Dominio 1: Político-Legal',
+            titulo: 'Dominio 1: político-legal',
             hash: 't_4_1',
           },
           {
@@ -106,7 +106,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.2',
-            titulo: 'Domino 2: Organizacional',
+            titulo: 'Domino 2: organizacional',
             hash: 't_4_2',
           },
           {
@@ -124,7 +124,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Domino 3: Semántico',
+            titulo: 'Domino 3: semántico',
             hash: 't_4_3',
           },
           {
@@ -136,7 +136,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.4',
-            titulo: 'Domino 4: Técnico',
+            titulo: 'Domino 4: técnico',
             hash: 't_4_4',
           },
           {
@@ -204,18 +204,16 @@ export default {
         regional: 'Regional Santander',
       },
       {
-        nombre: 'Daniel Fernando Portilla Arciniegas',
-        cargo: 'Experto temático',
-        centro: 'MINTIC',
-      },
-      {
-        nombre: 'José Ricardo Aponte Oviedo',
-        cargo: 'Experto temático',
+        nombre: [
+          'Daniel Fernando Portilla Arciniegas',
+          'José Ricardo Aponte Oviedo',
+        ],
+        cargo: 'Expertos temáticos',
         centro: 'MINTIC',
       },
       {
         nombre: 'Sergio Arturo Medina Castillo',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro: 'Centro para la Industria de la Comunicación Gráfica',
       },
       {
@@ -223,25 +221,36 @@ export default {
         cargo: 'Revisora y evaluadora metodológica',
         centro: 'Centro de Gestión Industrial',
       },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica',
+      },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del Equipo',
+        cargo: 'Responsable del equipo',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte Organizacional',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
         nombre: ['Eulises Orduz Amezquita', 'Luis Gabriel Urueta Alvarez'],
-        cargo: 'Diseño Web y Producción Audiovisual',
+        cargo: 'Diseño Web y Producción audiovisual',
       },
       {
         nombre: 'Ricardo Alfonso González Vargas',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-End',
       },
       {
+        nombre: 'Maria Isabel Román Rueda',
+        cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
@@ -249,8 +258,8 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
-        cargo: ['Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
+        cargo: ['Validación y vinculación en plataforma LMS'],
+        centro: 'Centro de Comercio y Servicios',
         regional: 'Regional Tolima',
       },
     ],
@@ -274,7 +283,7 @@ export default {
     },
     {
       referencia:
-        'Gobierno electrónico. ¿Estado, ciudadanía y democracia en Internet, Julie Massal, Carlos Germán Sandoval, Revista Análisis político nº 68, Bogotá, enero-abril, 2010: págs. 3-25?',
+        'Gobierno electrónico. Estado, ciudadanía y democracia en Internet, Julie Massal, Carlos Germán Sandoval, Revista Análisis político nº 68, Bogotá, enero-abril, 2010: págs. 3-25',
     },
     {
       referencia:
@@ -308,7 +317,7 @@ export default {
     {
       termino: 'Servicio de intercambio de información',
       significado:
-        'recurso tecnológico que mediante el uso de un conjunto de protocolos y estándares permite el intercambio de información. “Es una representación lógica de una actividad de negocio repetible que tiene un resultado específico (por ejemplo, verificar el crédito del cliente, proporcionar datos del clima, consolidar informes de perforación) y que tiene las siguientes características: Autocontenido, puede estar compuesto por otros servicios y es una “caja negra” para los consumidores del servicio”',
+        'recurso tecnológico que mediante el uso de un conjunto de protocolos y estándares permite el intercambio de información. “Es una representación lógica de una actividad de negocio repetible que tiene un resultado específico (por ejemplo, verificar el crédito del cliente, proporcionar datos del clima, consolidar informes de perforación) y que tiene las siguientes características: autocontenido, puede estar compuesto por otros servicios y es una “caja negra” para los consumidores del servicio”',
     },
     {
       termino: 'Trámite',
