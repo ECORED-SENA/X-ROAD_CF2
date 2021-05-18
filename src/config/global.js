@@ -231,14 +231,10 @@ export default {
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
       },
       {
         nombre: ['Eulises Orduz Amezquita', 'Luis Gabriel Urueta Alvarez'],
@@ -251,6 +247,8 @@ export default {
       {
         nombre: 'Maria Isabel Román Rueda',
         cargo: 'Validación de diseño y contenido',
+      },
+      {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },

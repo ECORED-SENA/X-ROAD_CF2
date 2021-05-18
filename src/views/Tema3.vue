@@ -176,7 +176,7 @@
                 li 
                   span.h4.span.list_bloc9 9
             .col-lg-10
-              .h5.mb-3 Principio #9: costo-Efectividad
+              .h5.mb-3 Principio #9: costo-efectividad
               p.mb-3 Las #[strong inversiones] para que las entidades públicas puedan ofrecer servicios de intercambio de información deben #[strong generar beneficios] que justifiquen, compensen e idealmente excedan los gastos incurridos. A pesar de esto, las dimensiones de evaluación de los beneficios no se deberán limitar a los económicos o cuantificables, a través de algún análisis financiero. Se deberán incluir dimensiones asociadas con el #[strong aumento] del #[strong bienestar de ciudadanos y empresas], y con la calidad que ellos perciben en su relación con el Estado.
 
         .col-lg-5

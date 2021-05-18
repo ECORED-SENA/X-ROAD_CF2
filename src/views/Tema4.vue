@@ -441,7 +441,7 @@
     .titulo-segundo.mb-5
       #t_4_3_1.h5 4.3.1 Actividades
 
-    .cont_img.mb-5
+    .cont_img1.mb-5
       img(src='@/assets/curso/tema_4/img_14.svg')
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta color_acor")

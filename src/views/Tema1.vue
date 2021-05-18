@@ -6,7 +6,7 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 1 
-      .h3 Herramienta que acompaña a las entidades en el desarrollo de sus capacidades de intercambio de información.
+      .h3 Herramienta que acompaña a las entidades en el desarrollo de sus capacidades de intercambio de información
       
 
     .titulo-segundo
