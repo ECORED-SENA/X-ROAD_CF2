@@ -1,8 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'Marco de Interoperabilidad para el Estado Colombiano',
+    componenteFormativo: 'Marco de Interoperabilidad para el Estado colombiano',
     descripcionCurso:
-      'La interoperabilidad ha funcionado como una herramienta de gran alcance en los procesos de intercambio de información rápida, segura y eficiente; la importancia de su aplicación debe tener un alcance tanto a nivel local, interinstitucional, sectorial, nacional o internacional y orientado a todos los involucrados en gestionar las necesidades estratégicas de las Entidades favoreciendo así la transformación del Estado Colombiano para que funcione como una sola institución que le brinde a los ciudadanos información oportuna, trámites ágiles y mejores servicios.',
+      'La interoperabilidad ha funcionado como una herramienta de gran alcance en los procesos de intercambio de información rápida, segura y eficiente; la importancia de su aplicación debe tener un alcance tanto a nivel local, interinstitucional, sectorial, nacional o internacional y orientado a todos los involucrados en gestionar las necesidades estratégicas de las entidades favoreciendo así la transformación del Estado colombiano para que funcione como una sola institución que le brinde a los ciudadanos información oportuna, trámites ágiles y mejores servicios.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

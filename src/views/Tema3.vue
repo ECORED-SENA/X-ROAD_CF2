@@ -65,7 +65,7 @@
         .col-lg-5
           .bloque-texto-blue_1__texto.p-4.mb-3
             p #[strong Recomendación 3]
-            | definir y verificar que en los procesos de interoperabilidad se cumplen las políticas y normativas con el fin de garantizar el intercambio de datos seguro y fiable entre las entidades y en interacciones con los ciudadanos y las empresas.
+            | Definir y verificar que en los procesos de interoperabilidad se cumplen las políticas y normativas con el fin de garantizar el intercambio de datos seguro y fiable entre las entidades y en interacciones con los ciudadanos y las empresas.
           .bloque-texto-blue_1__texto.p-4
             p #[strong Recomendación 4]
             | Definir para los datos susceptibles de intercambio, una política de conservación y consulta de históricos.
